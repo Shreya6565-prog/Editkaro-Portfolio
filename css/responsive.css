@@ -1,0 +1,647 @@
+/* =====================================
+        RESPONSIVE DESIGN
+        TABLET + MOBILE DEVICES
+===================================== */
+
+
+
+/* =====================================
+        LARGE TABLETS
+===================================== */
+
+
+@media (max-width: 1024px) {
+
+
+    .hero {
+
+        flex-direction: column;
+
+        text-align: center;
+
+    }
+
+
+
+    .hero-left,
+    .hero-right {
+
+        width: 100%;
+
+    }
+
+
+
+    .hero p {
+
+        margin-left: auto;
+
+        margin-right: auto;
+
+    }
+
+
+
+    .hero-buttons {
+
+        justify-content: center;
+
+    }
+
+
+
+    .hero-stats {
+
+        justify-content: center;
+
+    }
+
+
+
+
+
+    .about-content {
+
+        flex-direction: column;
+
+    }
+
+
+
+    .about-image,
+    .about-text {
+
+        width: 100%;
+
+    }
+
+
+
+    .service-grid {
+
+        grid-template-columns:
+        repeat(2,1fr);
+
+    }
+
+
+
+    .portfolio-grid {
+
+        grid-template-columns:
+        repeat(2,1fr);
+
+    }
+
+
+
+    .category-grid {
+
+        grid-template-columns:
+        repeat(2,1fr);
+
+    }
+
+
+
+    .featured-grid {
+
+        grid-template-columns:
+        repeat(2,1fr);
+
+    }
+
+
+
+    .stats-grid {
+
+        grid-template-columns:
+        repeat(2,1fr);
+
+    }
+
+
+
+    .testimonial-grid {
+
+        grid-template-columns:
+        repeat(2,1fr);
+
+    }
+
+
+
+    .footer-grid {
+
+        grid-template-columns:
+        repeat(2,1fr);
+
+    }
+
+
+}
+
+
+
+
+
+
+
+/* =====================================
+        MOBILE DEVICES
+===================================== */
+
+
+@media (max-width: 768px) {
+
+
+
+    .navbar {
+
+        padding: 20px 0;
+
+    }
+
+
+
+    .nav-links {
+
+        position: fixed;
+
+        top: 80px;
+
+        left: -100%;
+
+        width: 100%;
+
+        height: calc(100vh - 80px);
+
+        background: var(--dark-bg);
+
+        flex-direction: column;
+
+        align-items: center;
+
+        justify-content: center;
+
+        transition: 0.4s;
+
+    }
+
+
+
+    .nav-links.active {
+
+        left: 0;
+
+    }
+
+
+
+    .menu-btn {
+
+        display: block;
+
+    }
+
+
+
+    .nav-right .btn {
+
+        display: none;
+
+    }
+
+
+
+
+
+
+
+    .hero h1 {
+
+        font-size: 42px;
+
+    }
+
+
+
+    .hero p {
+
+        font-size: 16px;
+
+    }
+
+
+
+    .hero-buttons {
+
+        flex-direction: column;
+
+        align-items: center;
+
+    }
+
+
+
+    .hero-stats {
+
+        flex-direction: column;
+
+        gap: 25px;
+
+    }
+
+
+
+    .hero-right img {
+
+        width: 300px;
+
+    }
+
+
+
+
+
+
+
+    section {
+
+        padding: 70px 0;
+
+    }
+
+
+
+    .section-title h2 {
+
+        font-size: 35px;
+
+    }
+
+
+
+
+
+
+
+    .service-grid {
+
+        grid-template-columns:
+        1fr;
+
+    }
+
+
+
+    .portfolio-grid {
+
+        grid-template-columns:
+        1fr;
+
+    }
+
+
+
+    .category-grid {
+
+        grid-template-columns:
+        1fr;
+
+    }
+
+
+
+    .featured-grid {
+
+        grid-template-columns:
+        1fr;
+
+    }
+
+
+
+    .stats-grid {
+
+        grid-template-columns:
+        1fr;
+
+    }
+
+
+
+    .testimonial-grid {
+
+        grid-template-columns:
+        1fr;
+
+    }
+
+
+
+    .contact-wrapper {
+
+        grid-template-columns:
+        1fr;
+
+    }
+
+
+
+    .footer-grid {
+
+        grid-template-columns:
+        1fr;
+
+        text-align: center;
+
+    }
+
+
+
+    .footer-links {
+
+        align-items: center;
+
+    }
+
+
+
+}
+/* =====================================
+        SMALL MOBILE DEVICES
+===================================== */
+
+
+@media (max-width: 480px) {
+
+
+
+    .container {
+
+        width: 92%;
+
+    }
+
+
+
+
+
+    .logo h2 {
+
+        font-size: 25px;
+
+    }
+
+
+
+
+
+    .hero {
+
+        padding-top: 100px;
+
+    }
+
+
+
+
+
+    .hero h1 {
+
+        font-size: 34px;
+
+    }
+
+
+
+
+
+    .hero-right img {
+
+        width: 250px;
+
+    }
+
+
+
+
+
+    .tag {
+
+        font-size: 12px;
+
+    }
+
+
+
+
+
+    .primary-btn,
+    .secondary-btn {
+
+        width: 100%;
+
+        text-align: center;
+
+    }
+
+
+
+
+
+    .section-title h2 {
+
+        font-size: 30px;
+
+    }
+
+
+
+
+
+    .service-card {
+
+        padding: 25px 20px;
+
+    }
+
+
+
+
+
+    .portfolio-card {
+
+        height: 300px;
+
+    }
+
+
+
+
+
+    .category-card img {
+
+        height: 200px;
+
+    }
+
+
+
+
+
+    .featured-content {
+
+        padding: 20px;
+
+    }
+
+
+
+
+
+    .project-info {
+
+        flex-direction: column;
+
+        gap: 15px;
+
+    }
+
+
+
+
+
+    .process-step {
+
+        flex-direction: column;
+
+        text-align: center;
+
+    }
+
+
+
+
+
+    .step-content {
+
+        width: 100%;
+
+    }
+
+
+
+
+
+    .contact-form {
+
+        padding: 20px;
+
+    }
+
+
+
+
+
+    .modal-content {
+
+        width: 95%;
+
+    }
+
+
+
+
+
+    .modal-content iframe {
+
+        height: 250px;
+
+    }
+
+
+
+
+
+    #backToTop {
+
+        right: 15px;
+
+        bottom: 15px;
+
+        width: 45px;
+
+        height: 45px;
+
+    }
+
+
+
+}
+
+
+
+
+
+
+
+/* =====================================
+        LANDSCAPE MOBILE
+===================================== */
+
+
+@media (max-height: 500px) and (orientation: landscape) {
+
+
+    .hero {
+
+        min-height: auto;
+
+        padding: 120px 0 50px;
+
+    }
+
+
+}
+
+
+
+
+
+
+
+/* =====================================
+        PRINT FIX
+===================================== */
+
+
+@media print {
+
+
+    .navbar,
+    .footer,
+    #backToTop,
+    .video-modal {
+
+
+        display: none;
+
+
+    }
+
+
+    body {
+
+
+        background: white;
+
+
+        color: black;
+
+
+    }
+
+
+}
